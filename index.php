@@ -32,7 +32,7 @@
 		<!-- Line below is to preload the font when the page loads -->
 		<span class="fa fa-asterisk" style="opacity: 0;">&nbsp;</span>
 
-		<div id="mobile-menu-wrap" class="hidden-lg">
+		<div id="mobile-menu-wrap">
 			<a href="#" class="bg "><span class="fa fa-bars">&nbsp;</span></a>
 		</div>
 

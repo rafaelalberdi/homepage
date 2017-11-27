@@ -1,4 +1,4 @@
-var menuHidden = true;
+var menuHidden = false;
 var randBgTimer = null;
 
 // Simulates PHP's date function - http://jacwright.com/projects/javascript/date_format/
@@ -52,6 +52,69 @@ Mousetrap.bind('5', function() {
 Mousetrap.bind('6', function() {
   if (!menuHidden) {
     var link = $(".link:eq(5) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('7', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(6) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('8', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(7) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('9', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(8) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('0', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(9) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('!', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(10) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('"', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(11) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('§', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(12) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('$', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(13) a").attr("href");
+    window.location = link;
+  }
+});
+
+Mousetrap.bind('%', function() {
+  if (!menuHidden) {
+    var link = $(".link:eq(14) a").attr("href");
     window.location = link;
   }
 });
