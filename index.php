@@ -32,12 +32,20 @@
 		<!-- Line below is to preload the font when the page loads -->
 		<span class="fa fa-asterisk" style="opacity: 0;">&nbsp;</span>
 
+		<!--
 		<div id="mobile-menu-wrap">
 			<a href="#" class="bg "><span class="fa fa-bars">&nbsp;</span></a>
 		</div>
 
 		<div id="clock-wrap" class="menu-item bg">
 			<span id="clock"></span>
+		</div>
+		-->
+
+		<div id="mobile-menu-wrap" style="display: block !important; position: static !important;">
+			<div id="clock-wrap" class="menu-item bg" style="display: block !important;">
+				<span id="clock"></span>
+			</div>
 		</div>
 
 		<div id="links-wrap" class="menu-item bg">

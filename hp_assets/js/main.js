@@ -186,7 +186,7 @@ function preloadimages(arr){
 }
 
 $(function() {
-  $("#mobile-menu-wrap a").click(function(e) {
+  $("#mobile-menu-wrap").click(function(e) {
     e.preventDefault();
     toggleMenu();
   });
